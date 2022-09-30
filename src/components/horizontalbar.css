@@ -1,41 +1,50 @@
 .Horizontalbar_main {
-    background-color: #e3e4ea;
-    padding: 50px;
+    background-color: #FAFBFC;
+    /* padding: 50px; */
+    /* padding-left: 30px; */
+    padding-bottom: 30px;
+    padding-top: 30px;
     border-radius: 20px;
-    width: 30%;
-    min-width: 50vh;
-    max-width: 50vh;
+    width: 100vh;
+    min-width: 70vh;
+    max-width: 70vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 50px;
+    /* margin-right: 20px; */
     /* align-items: center; */
 }
 
 .Horizontalbar_main_row1 {
     display: flex;
     flex-direction: row;
+    margin-left: 30px;
     /* justify-content:center; */
 }
 
 .Horizontalbar_main_row2 {
     display: flex;
     flex-direction: row;
-    /* margin-left: 30px; */
-    padding-top: 30px;
+    margin-left: 30px;
+    padding-top: 50px;
     font-size: x-large;
-    color: gray;
+    color: rgb(243, 239, 239);
+    margin-top: 50px;
     /* justify-content: center; */
 }
 
 .Horizontalbar_main_row2_right {
-    margin-left: 25px;
+    margin-left: 55px;
     font-size: medium;
     margin-top: 7px;
+    margin-bottom: 10px;
 }
 
 .Horizontalbar_main_row1_icon {
-    margin-left: 70%;
-    color: gray;
+    margin-left: 60%;
+    color: rgb(225, 218, 218);
 }
 
 .Horizontalbar_main_row2_right span {
@@ -54,9 +63,10 @@
 }
 
 .Horizontalbar_graph li {
-    background-color: #e3e4ea;
+    background-color: #FAFBFC;
     display: flex;
-    height: 100px;
+    height: 50px;
+    /* padding: 5px; */
     flex-direction: row;
     /* justify-content: center; */
     align-items: center;
@@ -64,9 +74,11 @@
 
 .Horizontalbar_graph label {
     padding-top: 0px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     /* padding-left: 20px; */
     justify-content: center;
+    margin-left: 35px;
+    margin-top: 10px;
 }
 
 .Horizontalbar_graph_orange {
@@ -75,6 +87,7 @@
     width: 50%;
     margin-left: 50px;
     border-radius: 20px;
+    margin-top: 10px;
 }
 
 .Horizontalbar_graph_green {
@@ -83,6 +96,7 @@
     width: 30%;
     margin-left: 30px;
     border-radius: 20px;
+    margin-top: 10px;
 }
 
 .Horizontalbar_graph_blue {
@@ -91,5 +105,6 @@
     width: 15%;
     margin-left: 35px;
     border-radius: 20px;
+    margin-top: 10px;
 }
 

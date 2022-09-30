@@ -13,13 +13,13 @@ export default function Horizontalbar() {
                     </div>
                 </div>
                 <div className="Horizontalbar_main_row2">
-                    <div className="Horizontalbar_main_row2_left">
+                    {/* <div className="Horizontalbar_main_row2_left">
                         <FaDollarSign />
                         <label><b>18500</b></label>
                     </div>
                     <div className="Horizontalbar_main_row2_right">
                         <label><span><b>+5%</b></span></label>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="Horizontalbar_graph" >
                     <ul>
